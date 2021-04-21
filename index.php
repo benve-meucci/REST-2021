@@ -15,4 +15,7 @@ header("Content-Type: application/json");
 echo($js_encode);
 
 /* curl --header "Content-Type: application/json" --request POST --data '{"_name":"Ciccio", "_surname":"Benve"}' http://localhost:8080 */
+/* curl --header "Content-Type: application/json" --request POST --data "{\"_name\":\"Ciccio\", \"_surname\":\"Benve\"}" http://localhost:8080 */
+
 ?>
+
